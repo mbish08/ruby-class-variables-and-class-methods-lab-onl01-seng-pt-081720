@@ -16,8 +16,5 @@ class Song
     @@count 
   end 
   
-  def artists(artist)
-      @@artists << artist 
-  end 
 end 
 
