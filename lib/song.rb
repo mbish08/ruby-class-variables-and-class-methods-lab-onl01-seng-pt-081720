@@ -21,5 +21,6 @@ class Song
       @@artists[song] << artist 
     else 
       @@artists[song] = [artist]
+    end 
 end 
 
