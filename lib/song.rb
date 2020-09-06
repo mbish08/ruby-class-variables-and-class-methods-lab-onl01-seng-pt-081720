@@ -16,6 +16,10 @@ class Song
     @@count 
   end 
   
-  def artists
-    
+  def artists(artist, song)
+    if @@artists.has_key?(artist)
+      @@artists[song] << artist 
+    else 
+      @@artists[song] = [artist]
 end 
+
