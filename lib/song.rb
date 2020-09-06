@@ -22,5 +22,6 @@ class Song
     else 
       @@artists[song] = [artist]
     end 
+  end 
 end 
 
