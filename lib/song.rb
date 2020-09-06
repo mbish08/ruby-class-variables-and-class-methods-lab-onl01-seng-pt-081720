@@ -16,11 +16,7 @@ class Song
   end 
   
   def artists(artist)
-    if @@artists.includes?(artist)
       @@artists << artist 
-    else 
-      @@artists = [artist]
-    end 
   end 
 end 
 
