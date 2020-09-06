@@ -23,7 +23,8 @@ class Song
   end 
   
   def self.artists
-    unique_artists = artists.uniq 
+    unique_artists = []
+    unique_artists << artists.uniq 
   end 
   
 end 
